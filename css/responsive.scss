@@ -83,6 +83,23 @@
         grid-template-columns: 1fr 1fr;
     }
 
+
+    // FORM PAGES
+
+    .form-section{
+        grid-template-columns: 1fr;
+        width: 95%;
+
+        .btn-group{
+            grid-column: 1 / 2;
+        }
+
+        .demo-text{
+            padding-right: 0;
+        }
+    }
+
+
     // FOOTER
 
     footer{
@@ -148,6 +165,16 @@
         grid-template-columns: 1fr;
     }
 
+    // FORM PAGES
+
+    .form-section{
+        padding: 5rem 2rem;
+        .btn-group{
+            width: 90%;
+            flex-direction: column;
+        }
+    }
+    
     // FOOTER
     footer{
         .footer-top-item{
@@ -159,6 +186,7 @@
             }
         }
     }
+
 }
 
 @media only screen and (max-width: 767px) {

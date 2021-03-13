@@ -48,3 +48,11 @@ function close(){
 
 openNav.addEventListener('click', open);
 closeNav.addEventListener('click', close);
+
+
+
+// FORM
+function showHide(item1, item2){
+	$(item1).hide(500);
+	$(item2).show(500);
+}

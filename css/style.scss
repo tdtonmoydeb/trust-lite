@@ -1238,6 +1238,8 @@ input:focus {
     }
 }
 
+
+
 // TEXT PAGE
 
 .text-page{
@@ -1276,6 +1278,167 @@ input:focus {
 
     .card-text{
         font-size: 1.6rem !important;
+    }
+}
+
+
+
+// FORM SECTION
+
+.form-section-wrapper{
+    padding: 5rem 0;
+}
+
+.form-section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+
+    .btn-group{
+        grid-column: 1 / 3;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+
+        .btn{
+            color: $black;
+            &.or{
+                background: $optional
+            }
+        }
+    }
+
+    .demo-text{
+        @include flex(center, center, column);
+        text-align: center;
+        padding-right: 2rem;
+
+        h2{
+            font-size: 2.5rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+            text-align: center;
+        }
+    }
+
+    .form-logo{
+        width: 10rem;
+    }
+
+    .main-form{
+        width: 100%;
+        label{
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+
+        input{
+            width: 100%;
+            font-size: 1.6rem;
+        }
+
+        .link{
+            display: block;
+            text-align: center;
+            font-size: 1.3rem;
+            
+            &:first-child{
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        select{
+            font-size: 1.8rem;
+        }
+
+        .submit-btn{
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-check{
+
+            &-label{
+                font-size: 1.6rem;
+                margin: 0;
+                margin-left: 1rem;
+            }
+
+            &-input{ 
+                width: auto;
+                margin-top: .6rem;
+            }
+        }
+    }
+
+
+    &.partner{
+        grid-template-columns: 1fr;
+
+        .btn-group{
+            grid-column: 1 / 2;
+        }
+    }
+}
+
+// SERVICE POINT
+
+.servicepoint{
+    .input-group{
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.8rem;
+
+        input{
+            font-size: 1.8rem;
+        }
+
+        i{
+            font-size: 1.8rem;
+        }
+    }
+
+    &-details{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+
+        img{
+            height: 25rem;
+        }
+
+        .card-title{
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+        }
     }
 }
 

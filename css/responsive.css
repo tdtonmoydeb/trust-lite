@@ -64,6 +64,19 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  .form-section {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .form-section .btn-group {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  .form-section .demo-text {
+    padding-right: 0;
+  }
   footer .footer-top-item {
     border-left: none;
   }
@@ -125,6 +138,16 @@
   .blog {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .form-section {
+    padding: 5rem 2rem;
+  }
+  .form-section .btn-group {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer .footer-top-item {
     -webkit-box-orient: vertical;

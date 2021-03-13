@@ -1379,6 +1379,178 @@ input:focus {
   font-size: 1.6rem !important;
 }
 
+.form-section-wrapper {
+  padding: 5rem 0;
+}
+
+.form-section {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-grid;
+  display: grid;
+  padding: 5rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.form-section .btn-group {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.form-section .btn-group .btn {
+  color: #000;
+}
+
+.form-section .btn-group .btn.or {
+  background: #EA6721;
+}
+
+.form-section .demo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.form-section .demo-text h2 {
+  font-size: 2.5rem;
+}
+
+.form-section .demo-text p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.form-section .form-logo {
+  width: 10rem;
+}
+
+.form-section .main-form {
+  width: 100%;
+  /* Firefox */
+}
+
+.form-section .main-form label {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.form-section .main-form input::-webkit-outer-spin-button,
+.form-section .main-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-section .main-form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-section .main-form input {
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.form-section .main-form .link {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.form-section .main-form .link:first-child {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-section .main-form select {
+  font-size: 1.8rem;
+}
+
+.form-section .main-form .submit-btn {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.form-section .main-form .form-check-label {
+  font-size: 1.6rem;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.form-section .main-form .form-check-input {
+  width: auto;
+  margin-top: .6rem;
+}
+
+.form-section.partner {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.form-section.partner .btn-group {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+.servicepoint .input-group {
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+}
+
+.servicepoint .input-group input {
+  font-size: 1.8rem;
+}
+
+.servicepoint .input-group i {
+  font-size: 1.8rem;
+}
+
+.servicepoint-details {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.servicepoint-details img {
+  height: 25rem;
+}
+
+.servicepoint-details .card-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.servicepoint-details p {
+  font-size: 1.6rem;
+}
+
 .team-section {
   padding: 5rem 0;
 }
